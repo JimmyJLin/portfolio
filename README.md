@@ -3,7 +3,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 #### References
-##### This boilerplate is a simple hello worl app version of [[react-webpack-node]](https://github.com/choonkending/react-webpack-node) from [[Ken Ding]](https://github.com/choonkending).
+##### This boilerplate is a simple hello world app version of [[react-webpack-node]](https://github.com/choonkending/react-webpack-node) from [[Ken Ding]](https://github.com/choonkending).
 
 #### Demo Site:
 
