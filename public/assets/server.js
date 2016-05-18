@@ -29541,8 +29541,8 @@ module.exports =
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: '/images/jimmy_lin_resume.pdf', className: 'item', target: '_blank' },
-	            _react2.default.createElement('i', { className: 'icon file pdf outline large', target: '_blank' }),
+	            { href: 'images/jimmy_lin_resume.pdf', className: 'item', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'icon dropbox large', target: '_blank' }),
 	            'Resume'
 	          ),
 	          _react2.default.createElement(
