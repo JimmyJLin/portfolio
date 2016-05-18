@@ -83,6 +83,8 @@ export default function render(req, res) {
               ${header.title.toString()}
               ${header.meta.toString()}
               ${header.link.toString()}
+              <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+              <script src="semantic/dist/semantic.min.js"></script>
             </head>
             <body>
               <div id="app">${componentHTML}</div>
