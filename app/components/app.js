@@ -6,11 +6,17 @@ import Footer from './footer';
 
 export default class App extends Component {
   render() {
+    let content
+    if(this.props.children === null) {
+      content = <Body />
+    } else {
+      content = this.props.children
+    }
     return (
       <div>
-      <Header />
-      <Body />
-      <Footer />
+        <Header />
+        {content}
+        <Footer />
       </div>
     )
   }

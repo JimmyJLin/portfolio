@@ -5,7 +5,17 @@ class Header extends Component {
   render(){
     return (
       <div>
-        <h3>Header</h3>
+        <div className="ui borderless main three item menu">
+
+          <div className="ui text container">
+            <Link to="/" className="item"><i className="icon home"></i>Home</Link>
+            <Link to="/portfolio" className="item"><i className="icon block layout"></i>Portfolio</Link>
+            <Link to="/photography" className="item"><i className="icon camera retro"></i>Photography</Link>
+
+          </div>
+
+        </div>
+
       </div>
     )
   }
