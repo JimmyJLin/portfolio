@@ -29395,7 +29395,7 @@ module.exports =
 	        null,
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'ui top fixed main three item menu' },
+	          { id: 'header', className: 'ui top fixed main three item menu' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'ui text container' },
@@ -29773,11 +29773,13 @@ module.exports =
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { id: "sohoduck", className: "section" },
+	        { id: "sohoduck", className: "section active" },
 	        _react2.default.createElement(
-	          "h3",
-	          null,
-	          "SoHo Duck"
+	          "div",
+	          { className: "ui tiny images" },
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/reactnative.png", alt: "react native" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/webpack.png", alt: "react native" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/firebase.png", alt: "react native" })
 	        )
 	      );
 	    }

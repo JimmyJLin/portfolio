@@ -5,7 +5,7 @@ class Header extends Component {
   render(){
     return (
       <div>
-        <div className="ui top fixed main three item menu">
+        <div id="header" className="ui top fixed main three item menu">
 
           <div className="ui text container">
             <Link to="/" className="item"><i className="icon home"></i>Home</Link>
