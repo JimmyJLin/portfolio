@@ -81,13 +81,22 @@ export default function render(req, res) {
           <!doctype html>
           <html ${header.htmlAttributes.toString()}>
             <head>
+
               ${header.title.toString()}
               ${header.meta.toString()}
               ${header.link.toString()}
+
               <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
               <script src="semantic/dist/jquery.min.js"></script>
               <script src="semantic/dist/semantic.min.js"></script>
+
+              <link rel="stylesheet" href="css/styles.css">
+
+              <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+              <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
               <script type="text/javascript" src="js/script.js"></script>
+
             </head>
             <body>
               <div id="app">${componentHTML}</div>
