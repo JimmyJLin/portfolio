@@ -29468,12 +29468,8 @@ module.exports =
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'h3',
-	          null,
-	          'Body'
-	        )
+	        { id: 'body' },
+	        _react2.default.createElement('img', { src: 'images/underconstruction.svg', alt: 'underconstruction' })
 	      );
 	    }
 	  }]);
@@ -29690,7 +29686,7 @@ module.exports =
 	        _react2.default.createElement(
 	          "div",
 	          { className: "ui tiny images" },
-	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/javascript.png", alt: "javaScript" }),
+	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/javascript5.png", alt: "javaScript" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/jquery.png", alt: "jquery" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/nodeexpress.png", alt: "express" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/postgresql.png", alt: "postgresql" }),
@@ -29775,7 +29771,7 @@ module.exports =
 	        _react2.default.createElement(
 	          "div",
 	          { className: "ui tiny images" },
-	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/javascript.png", alt: "javaScript" }),
+	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/javascript5.png", alt: "javaScript" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/jquery.png", alt: "jquery" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/html.png", alt: "html" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/css3.png", alt: "css3" }),
@@ -29956,7 +29952,7 @@ module.exports =
 	          "div",
 	          { className: "ui tiny images" },
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/react.png", alt: "react native" }),
-	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/javascript.png", alt: "javaScript" }),
+	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/javascript5.png", alt: "javaScript" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/jquery.png", alt: "jquery" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/nodeexpress.png", alt: "express" }),
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/postgresql.png", alt: "postgresql" }),
@@ -29988,7 +29984,7 @@ module.exports =
 /* 294 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -30018,16 +30014,12 @@ module.exports =
 	  }
 
 	  _createClass(Photography, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'h3',
-	          null,
-	          'Photography'
-	        )
+	        "div",
+	        { id: "photography" },
+	        _react2.default.createElement("img", { src: "images/underconstruction.svg", alt: "underconstruction" })
 	      );
 	    }
 	  }]);

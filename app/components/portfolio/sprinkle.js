@@ -14,7 +14,7 @@ class Sprinkle extends Component {
 
         <div className="ui tiny images">
           <img id="logosize" src="images/icons/react.png" alt="react native"/>
-          <img id="logosize" src="images/icons/javascript.png" alt="javaScript"/>
+          <img id="logosize" src="images/icons/javascript5.png" alt="javaScript"/>
           <img id="logosize" src="images/icons/jquery.png" alt="jquery"/>
           <img id="logosize" src="images/icons/nodeexpress.png" alt="express"/>
           <img id="logosize" src="images/icons/postgresql.png" alt="postgresql"/>

@@ -4,8 +4,9 @@ import { Link } from 'react-router';
 class Body extends Component {
   render(){
     return (
-      <div>
-        <h3>Body</h3>
+      <div id="body">
+        <img src="images/underconstruction.svg" alt="underconstruction"/>
+
       </div>
     )
   }

@@ -13,7 +13,7 @@ class Puppyrace extends Component {
         <br/>
 
         <div className="ui tiny images">
-          <img id="logosize" src="images/icons/javascript.png" alt="javaScript"/>
+          <img id="logosize" src="images/icons/javascript5.png" alt="javaScript"/>
           <img id="logosize" src="images/icons/jquery.png" alt="jquery"/>
           <img id="logosize" src="images/icons/html.png" alt="html"/>
           <img id="logosize" src="images/icons/css3.png" alt="css3"/>
