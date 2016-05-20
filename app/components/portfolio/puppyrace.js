@@ -13,23 +13,22 @@ class Puppyrace extends Component {
         <br/>
 
         <div className="ui tiny images">
-          <img id="logo" src="images/icons/javascript.png" alt="javaScript"/>
-          <img id="logo" src="images/icons/jquery.png" alt="jquery"/>
-          <img id="logo" src="images/icons/html.png" alt="html"/>
-          <img id="logo" src="images/icons/css3.png" alt="css3"/>
+          <img id="logosize" src="images/icons/javascript.png" alt="javaScript"/>
+          <img id="logosize" src="images/icons/jquery.png" alt="jquery"/>
+          <img id="logosize" src="images/icons/html.png" alt="html"/>
+          <img id="logosize" src="images/icons/css3.png" alt="css3"/>
+          <a href="http://jimmyjlin.github.io/Puppy-Race/">
+            <img id="logosize" src="images/icons/Github.png" alt="github"/>
+          </a>
         </div>
 
-        <br/>
         <div className="ui divider"></div>
-        <br/>
 
         <div className="ui large images">
           <img id="hoverimage" className="ui image pop visible" data-lightbox="image-set" src="images/portfolio/puppyrace/puppy_race.png" alt="puppy race" data-title="Puppy Race" data-content="inspired by my two french bulldogs Lord Vader & Sir Clementtine"/>
         </div>
 
-        <br/>
         <div className="ui divider"></div>
-        <br/>
 
       </div>
     )

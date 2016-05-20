@@ -42,6 +42,12 @@ body{
   padding-right: 10px
 }
 
+#logosize{
+  padding-right: 10px;
+  width: auto;
+  height: 80px;
+}
+
 #portfolioheader{
   text-align: center;
 }

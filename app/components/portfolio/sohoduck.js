@@ -22,16 +22,17 @@ class Sohoduck extends Component {
         <br/>
 
         <div className="ui tiny images">
-          <img id="logo" src="images/icons/reactnative.png" alt="react native"/>
-          <img id="logo" src="images/icons/javascript.png" alt="javaScript"/>
-          <img id="logo" src="images/icons/firebase.png" alt="firebase"/>
-          <img id="logo" src="images/icons/html.png" alt="html"/>
-          <img id="logo" src="images/icons/css3.png" alt="css3"/>
+          <img id="logosize" src="images/icons/reactnative.png" alt="react native"/>
+          <img id="logosize" src="images/icons/javascript.png" alt="javaScript"/>
+          <img id="logosize" src="images/icons/firebase.png" alt="firebase"/>
+          <img id="logosize" src="images/icons/html.png" alt="html"/>
+          <img id="logosize" src="images/icons/css3.png" alt="css3"/>
+          <a href="https://tsfr.io/zubpxb">
+            <img id="logosize" src="images/icons/testfairy.png" alt="test fairy"/>
+          </a>
         </div>
 
-        <br/>
         <div className="ui divider"></div>
-        <br/>
 
         <div className="ui small images">
 
@@ -44,10 +45,8 @@ class Sohoduck extends Component {
 
         </div>
 
-        <br/>
         <div className="ui divider"></div>
-        <br/>
-        
+
       </div>
     )
   }

@@ -13,26 +13,24 @@ class Mood extends Component {
         <br/>
 
         <div className="ui tiny images">
-          <img id="logo" src="images/icons/javascript.png" alt="javaScript"/>
-          <img id="logo" src="images/icons/jquery.png" alt="jquery"/>
-          <img id="logo" src="images/icons/nodeexpress.jpg" alt="express"/>
-          <img id="logo" src="images/icons/postgresql.png" alt="postgresql"/>
-          <img id="logo" src="images/icons/html.png" alt="html"/>
-          <img id="logo" src="images/icons/css3.png" alt="css3"/>
-
+          <img id="logosize" src="images/icons/javascript.png" alt="javaScript"/>
+          <img id="logosize" src="images/icons/jquery.png" alt="jquery"/>
+          <img id="logosize" src="images/icons/nodeexpress.png" alt="express"/>
+          <img id="logosize" src="images/icons/postgresql.png" alt="postgresql"/>
+          <img id="logosize" src="images/icons/html.png" alt="html"/>
+          <img id="logosize" src="images/icons/css3.png" alt="css3"/>
+          <a href="https://moo-d.herokuapp.com">
+            <img id="logosize" src="images/icons/heroku.png" alt="heroku"/>
+          </a>
         </div>
 
-        <br/>
         <div className="ui divider"></div>
-        <br/>
 
         <div className="ui large images">
           <img id="hoverimage" className="ui image pop visible" data-lightbox="image-set" src="images/portfolio/mood/moo-d.jpg" alt="puppy race" data-title="moo-d" data-content="able to sent and receive encouraging message from friends"/>
         </div>
 
-        <br/>
         <div className="ui divider"></div>
-        <br/>
 
       </div>
     )
