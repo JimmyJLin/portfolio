@@ -29673,10 +29673,41 @@ module.exports =
 	        "div",
 	        { id: "mood", className: "section" },
 	        _react2.default.createElement(
-	          "h3",
-	          null,
-	          "Moo-d"
-	        )
+	          "div",
+	          { className: "ui horizontal divider" },
+	          "Moo-D"
+	        ),
+	        _react2.default.createElement(
+	          "h4",
+	          { className: "ui header" },
+	          _react2.default.createElement(
+	            "p",
+	            { id: "portfolioheader" },
+	            "Mood sharing app where each user can create and share their current activity and emotional states with the world"
+	          )
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui tiny images" },
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/javascript.png", alt: "javaScript" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/jquery.png", alt: "jquery" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/nodeexpress.jpg", alt: "express" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/postgresql.png", alt: "postgresql" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/html.png", alt: "html" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/css3.png", alt: "css3" })
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui large images" },
+	          _react2.default.createElement("img", { id: "hoverimage", className: "ui image pop visible", "data-lightbox": "image-set", src: "images/portfolio/mood/moo-d.jpg", alt: "puppy race", "data-title": "moo-d", "data-content": "able to sent and receive encouraging message from friends" })
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement("br", null)
 	      );
 	    }
 	  }]);
@@ -29726,10 +29757,39 @@ module.exports =
 	        "div",
 	        { id: "puppyrace", className: "section" },
 	        _react2.default.createElement(
-	          "h3",
-	          null,
+	          "div",
+	          { className: "ui horizontal divider" },
 	          "Puppy Race"
-	        )
+	        ),
+	        _react2.default.createElement(
+	          "h4",
+	          { className: "ui header" },
+	          _react2.default.createElement(
+	            "p",
+	            { id: "portfolioheader" },
+	            "Monopoly inspired turn based board game for all ages"
+	          )
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui tiny images" },
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/javascript.png", alt: "javaScript" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/jquery.png", alt: "jquery" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/html.png", alt: "html" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/css3.png", alt: "css3" })
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui large images" },
+	          _react2.default.createElement("img", { id: "hoverimage", className: "ui image pop visible", "data-lightbox": "image-set", src: "images/portfolio/puppyrace/puppy_race.png", alt: "puppy race", "data-title": "Puppy Race", "data-content": "inspired by my two french bulldogs Lord Vader & Sir Clementtine" })
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement("br", null)
 	      );
 	    }
 	  }]);
@@ -29797,7 +29857,7 @@ module.exports =
 	          _react2.default.createElement(
 	            'p',
 	            { id: 'portfolioheader' },
-	            'Guided (SoHo) tour iOS App from a perspective of local - showcasing off the beat sites, restaurants, bars and shopping destinations.'
+	            'Guided (SoHo) tour iOS App from a perspective of local - showcasing off the beat sites, restaurants, bars and shopping destinations'
 	          )
 	        ),
 	        _react2.default.createElement('br', null),
@@ -29805,8 +29865,10 @@ module.exports =
 	          'div',
 	          { className: 'ui tiny images' },
 	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/reactnative.png', alt: 'react native' }),
-	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/webpack.png', alt: 'react native' }),
-	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/firebase.png', alt: 'react native' })
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/javascript.png', alt: 'javaScript' }),
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/firebase.png', alt: 'firebase' }),
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/html.png', alt: 'html' }),
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/css3.png', alt: 'css3' })
 	        ),
 	        _react2.default.createElement('br', null),
 	        _react2.default.createElement('div', { className: 'ui divider' }),
@@ -29820,7 +29882,10 @@ module.exports =
 	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/map.png', alt: 'map', 'data-title': 'Map', 'data-content': 'map markers for all the POIs' }),
 	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listing.png', alt: 'listing', 'data-title': 'Listings', 'data-content': 'listing of various contents' }),
 	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listingdetails.png', alt: 'listing details', 'data-title': 'Listing Details', 'data-content': 'listing details, can call, visit site or get direction' })
-	        )
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement('div', { className: 'ui divider' }),
+	        _react2.default.createElement('br', null)
 	      );
 	    }
 	  }]);
@@ -29870,10 +29935,43 @@ module.exports =
 	        "div",
 	        { id: "sprinkle", className: "section" },
 	        _react2.default.createElement(
-	          "h3",
-	          null,
+	          "div",
+	          { className: "ui horizontal divider" },
 	          "Sprinkle"
-	        )
+	        ),
+	        _react2.default.createElement(
+	          "h4",
+	          { className: "ui header" },
+	          _react2.default.createElement(
+	            "p",
+	            { id: "portfolioheader" },
+	            "Kayak of Job Search.  Sprinkle makes job searching a little more enjoyable by combining multiple job search sites into one"
+	          )
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui tiny images" },
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/react.png", alt: "react native" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/javascript.png", alt: "javaScript" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/jquery.png", alt: "jquery" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/nodeexpress.jpg", alt: "express" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/ajax.png", alt: "ajax" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/postgresql.png", alt: "postgresql" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/html.png", alt: "html" }),
+	          _react2.default.createElement("img", { id: "logo", src: "images/icons/css3.png", alt: "css3" })
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui large images" },
+	          _react2.default.createElement("img", { id: "hoverimage", className: "ui image pop visible", "data-lightbox": "image-set", src: "images/portfolio/sprinkle/sprinkle.png", alt: "Sprinkle", "data-title": "Sprinkle", "data-content": "able to search and return results from Careerbuilder.com & Indded.com" })
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement("br", null)
 	      );
 	    }
 	  }]);
