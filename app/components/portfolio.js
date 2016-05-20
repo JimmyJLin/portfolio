@@ -7,14 +7,16 @@ import Sprinkle from './portfolio/sprinkle'
 class Portfolio extends Component {
   render(){
     return (
-      <div id="fullpage">
-        <Sohoduck />
+      <div>
+        <div id="fullpage">
+          <Sohoduck />
 
-        <Sprinkle />
+          <Sprinkle />
 
-        <Mood />
+          <Mood />
 
-        <Puppyrace />
+          <Puppyrace />
+        </div>
       </div>
     )
   }

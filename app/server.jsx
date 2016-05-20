@@ -95,6 +95,9 @@ export default function render(req, res) {
               <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
               <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
+              <link href="css/lightbox.css" rel="stylesheet">
+              <script src="js/lightbox.js"></script>
+
               <script type="text/javascript" src="js/script.js"></script>
 
             </head>

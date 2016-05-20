@@ -19,7 +19,7 @@ body{
 
 /* Portfolio */
 #sohoduck{
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 #puppyrace{
@@ -41,6 +41,19 @@ body{
 #logo{
   padding-right: 10px
 }
+
+#portfolioheader{
+  text-align: center;
+}
+
+#moveup #movedown{
+  top: 20px;
+  left: 20px;
+  position: fixed;
+  z-index: 999;
+  font-size: 3em;
+}
+
 /* Photography */
 
 

@@ -147,7 +147,7 @@ module.exports =
 	          _react2.default.createElement(_reactRouter.RouterContext, props)
 	        ));
 
-	        res.status(200).send('\n          <!doctype html>\n          <html ' + _Meta2.default.htmlAttributes.toString() + '>\n            <head>\n\n              ' + _Meta2.default.title.toString() + '\n              ' + _Meta2.default.meta.toString() + '\n              ' + _Meta2.default.link.toString() + '\n\n              <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">\n              <script src="semantic/dist/jquery.min.js"></script>\n              <script src="semantic/dist/semantic.min.js"></script>\n\n              <link rel="stylesheet" href="css/styles.css">\n\n              <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />\n              <script type="text/javascript" src="js/jquery.fullPage.js"></script>\n\n              <script type="text/javascript" src="js/script.js"></script>\n\n            </head>\n            <body>\n              <div id="app">' + componentHTML + '</div>\n              <script>window.__INITIAL_STATE__ = ' + JSON.stringify(initialState) + ';</script>\n              <script type="text/javascript" charset="utf-8" src="/assets/app.js"></script>\n            </body>\n          </html>\n        ');
+	        res.status(200).send('\n          <!doctype html>\n          <html ' + _Meta2.default.htmlAttributes.toString() + '>\n            <head>\n\n              ' + _Meta2.default.title.toString() + '\n              ' + _Meta2.default.meta.toString() + '\n              ' + _Meta2.default.link.toString() + '\n\n              <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">\n              <script src="semantic/dist/jquery.min.js"></script>\n              <script src="semantic/dist/semantic.min.js"></script>\n\n              <link rel="stylesheet" href="css/styles.css">\n\n              <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />\n              <script type="text/javascript" src="js/jquery.fullPage.js"></script>\n\n              <link href="css/lightbox.css" rel="stylesheet">\n              <script src="js/lightbox.js"></script>\n\n              <script type="text/javascript" src="js/script.js"></script>\n\n            </head>\n            <body>\n              <div id="app">' + componentHTML + '</div>\n              <script>window.__INITIAL_STATE__ = ' + JSON.stringify(initialState) + ';</script>\n              <script type="text/javascript" charset="utf-8" src="/assets/app.js"></script>\n            </body>\n          </html>\n        ');
 	      }).catch(function (err) {
 	        res.status(500).json(err);
 	      });
@@ -29615,11 +29615,15 @@ module.exports =
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { id: 'fullpage' },
-	        _react2.default.createElement(_sohoduck2.default, null),
-	        _react2.default.createElement(_sprinkle2.default, null),
-	        _react2.default.createElement(_mood2.default, null),
-	        _react2.default.createElement(_puppyrace2.default, null)
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'fullpage' },
+	          _react2.default.createElement(_sohoduck2.default, null),
+	          _react2.default.createElement(_sprinkle2.default, null),
+	          _react2.default.createElement(_mood2.default, null),
+	          _react2.default.createElement(_puppyrace2.default, null)
+	        )
 	      );
 	    }
 	  }]);
@@ -29739,7 +29743,7 @@ module.exports =
 /* 292 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -29769,17 +29773,53 @@ module.exports =
 	  }
 
 	  _createClass(Sohoduck, [{
-	    key: "render",
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      console.log('loaded');
+
+	      // image pop-up
+	      $('.ui.pop').popup();
+	    }
+	  }, {
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "div",
-	        { id: "sohoduck", className: "section active" },
+	        'div',
+	        { id: 'sohoduck', className: 'section active' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "ui tiny images" },
-	          _react2.default.createElement("img", { id: "logo", src: "images/icons/reactnative.png", alt: "react native" }),
-	          _react2.default.createElement("img", { id: "logo", src: "images/icons/webpack.png", alt: "react native" }),
-	          _react2.default.createElement("img", { id: "logo", src: "images/icons/firebase.png", alt: "react native" })
+	          'div',
+	          { className: 'ui horizontal divider' },
+	          'SoHo Duck'
+	        ),
+	        _react2.default.createElement(
+	          'h4',
+	          { className: 'ui header' },
+	          _react2.default.createElement(
+	            'p',
+	            { id: 'portfolioheader' },
+	            'Guided (SoHo) tour iOS App from a perspective of local - showcasing off the beat sites, restaurants, bars and shopping destinations.'
+	          )
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui tiny images' },
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/reactnative.png', alt: 'react native' }),
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/webpack.png', alt: 'react native' }),
+	          _react2.default.createElement('img', { id: 'logo', src: 'images/icons/firebase.png', alt: 'react native' })
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement('div', { className: 'ui divider' }),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui small images' },
+	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/landing.png', alt: 'landing page', 'data-title': 'Landing Page', 'data-content': 'user can signup or login' }),
+	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/signup.png', alt: 'signup', 'data-title': 'Signup Page', 'data-content': 'user can signup with email and password' }),
+	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/dashboard.png', alt: 'dashboard', 'data-title': 'Dashboard', 'data-content': 'dashboard for Map, Restuarants, Additional POIs, and Shopping' }),
+	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/map.png', alt: 'map', 'data-title': 'Map', 'data-content': 'map markers for all the POIs' }),
+	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listing.png', alt: 'listing', 'data-title': 'Listings', 'data-content': 'listing of various contents' }),
+	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listingdetails.png', alt: 'listing details', 'data-title': 'Listing Details', 'data-content': 'listing details, can call, visit site or get direction' })
 	        )
 	      );
 	    }
