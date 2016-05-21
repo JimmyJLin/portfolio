@@ -29694,7 +29694,7 @@ module.exports =
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/css3.png", alt: "css3" }),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "https://moo-d.herokuapp.com" },
+	            { href: "https://moo-d.herokuapp.com", target: "_blank" },
 	            _react2.default.createElement("img", { id: "logosize", src: "images/icons/heroku.png", alt: "heroku" })
 	          )
 	        ),
@@ -29704,7 +29704,29 @@ module.exports =
 	          { className: "ui large images" },
 	          _react2.default.createElement("img", { id: "hoverimage", className: "ui image pop visible", "data-lightbox": "image-set", src: "images/portfolio/mood/moo-d.jpg", alt: "puppy race", "data-title": "moo-d", "data-content": "able to sent and receive encouraging message from friends" })
 	        ),
-	        _react2.default.createElement("div", { className: "ui divider" })
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement(
+	          "h4",
+	          { className: "ui center aligned icon header" },
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://moo-d.herokuapp.com", target: "_blank" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui animated fade button", tabindex: "0" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "visible content" },
+	                " Visit the website"
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "hidden content" },
+	                "Warp 10...Engage!!"
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -29777,7 +29799,7 @@ module.exports =
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/css3.png", alt: "css3" }),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "http://jimmyjlin.github.io/Puppy-Race/" },
+	            { href: "http://jimmyjlin.github.io/Puppy-Race/", target: "_blank" },
 	            _react2.default.createElement("img", { id: "logosize", src: "images/icons/Github.png", alt: "github" })
 	          )
 	        ),
@@ -29787,7 +29809,29 @@ module.exports =
 	          { className: "ui large images" },
 	          _react2.default.createElement("img", { id: "hoverimage", className: "ui image pop visible", "data-lightbox": "image-set", src: "images/portfolio/puppyrace/puppy_race.png", alt: "puppy race", "data-title": "Puppy Race", "data-content": "inspired by my two french bulldogs Lord Vader & Sir Clementtine" })
 	        ),
-	        _react2.default.createElement("div", { className: "ui divider" })
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement(
+	          "h4",
+	          { className: "ui center aligned icon header" },
+	          _react2.default.createElement(
+	            "a",
+	            { href: "http://jimmyjlin.github.io/Puppy-Race/", target: "_blank" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui animated fade button", tabindex: "0" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "visible content" },
+	                " Visit the website"
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "hidden content" },
+	                "Warp 10...Engage!!"
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -29869,7 +29913,7 @@ module.exports =
 	          _react2.default.createElement('img', { id: 'logosize', src: 'images/icons/css3.png', alt: 'css3' }),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://tsfr.io/zubpxb' },
+	            { href: 'https://tsfr.io/zubpxb', target: '_blank' },
 	            _react2.default.createElement('img', { id: 'logosize', src: 'images/icons/testfairy.png', alt: 'test fairy' })
 	          )
 	        ),
@@ -29877,14 +29921,36 @@ module.exports =
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'ui small images' },
-	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/landing.png', alt: 'landing page', 'data-title': 'Landing Page', 'data-content': 'user can signup or login' }),
-	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/signup.png', alt: 'signup', 'data-title': 'Signup Page', 'data-content': 'user can signup with email and password' }),
-	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/dashboard.png', alt: 'dashboard', 'data-title': 'Dashboard', 'data-content': 'dashboard for Map, Restuarants, Additional POIs, and Shopping' }),
-	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/map.png', alt: 'map', 'data-title': 'Map', 'data-content': 'map markers for all the POIs' }),
-	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listing.png', alt: 'listing', 'data-title': 'Listings', 'data-content': 'listing of various contents' }),
-	          _react2.default.createElement('img', { id: 'hoverimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listingdetails.png', alt: 'listing details', 'data-title': 'Listing Details', 'data-content': 'listing details, can call, visit site or get direction' })
+	          _react2.default.createElement('img', { id: 'iphoneimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/landing.png', alt: 'landing page', 'data-title': 'Landing Page', 'data-content': 'user can signup or login' }),
+	          _react2.default.createElement('img', { id: 'iphoneimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/signup.png', alt: 'signup', 'data-title': 'Signup Page', 'data-content': 'user can signup with email and password' }),
+	          _react2.default.createElement('img', { id: 'iphoneimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/dashboard.png', alt: 'dashboard', 'data-title': 'Dashboard', 'data-content': 'dashboard for Map, Restuarants, Additional POIs, and Shopping' }),
+	          _react2.default.createElement('img', { id: 'iphoneimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/map.png', alt: 'map', 'data-title': 'Map', 'data-content': 'map markers for all the POIs' }),
+	          _react2.default.createElement('img', { id: 'iphoneimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listing.png', alt: 'listing', 'data-title': 'Listings', 'data-content': 'listing of various contents' }),
+	          _react2.default.createElement('img', { id: 'iphoneimage', className: 'ui image pop visible', 'data-lightbox': 'image-set', src: 'images/portfolio/sohoduck/listingdetails.png', alt: 'listing details', 'data-title': 'Listing Details', 'data-content': 'listing details, can call, visit site or get direction' })
 	        ),
-	        _react2.default.createElement('div', { className: 'ui divider' })
+	        _react2.default.createElement('div', { className: 'ui divider' }),
+	        _react2.default.createElement(
+	          'h4',
+	          { className: 'ui center aligned icon header' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://tsfr.io/zubpxb', target: '_blank' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui animated fade button', tabindex: '0' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'visible content' },
+	                ' Visit the website'
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'hidden content' },
+	                'Warp 10...Engage!!'
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -29960,7 +30026,7 @@ module.exports =
 	          _react2.default.createElement("img", { id: "logosize", src: "images/icons/css3.png", alt: "css3" }),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "https://sprinkle-jobs.herokuapp.com" },
+	            { href: "https://sprinkle-jobs.herokuapp.com", target: "_blank" },
 	            _react2.default.createElement("img", { id: "logosize", src: "images/icons/heroku.png", alt: "heroku" })
 	          )
 	        ),
@@ -29970,7 +30036,29 @@ module.exports =
 	          { className: "ui large images" },
 	          _react2.default.createElement("img", { id: "hoverimage", className: "ui image pop visible", "data-lightbox": "image-set", src: "images/portfolio/sprinkle/sprinkle.png", alt: "Sprinkle", "data-title": "Sprinkle", "data-content": "able to search and return results from Careerbuilder.com & Indded.com" })
 	        ),
-	        _react2.default.createElement("div", { className: "ui divider" })
+	        _react2.default.createElement("div", { className: "ui divider" }),
+	        _react2.default.createElement(
+	          "h4",
+	          { className: "ui center aligned icon header" },
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://sprinkle-jobs.herokuapp.com", target: "_blank" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui animated fade button", tabindex: "0" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "visible content" },
+	                " Visit the website"
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "hidden content" },
+	                "Warp 10...Engage!!"
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);

@@ -19,7 +19,7 @@ class Mood extends Component {
           <img id="logosize" src="images/icons/postgresql.png" alt="postgresql"/>
           <img id="logosize" src="images/icons/html.png" alt="html"/>
           <img id="logosize" src="images/icons/css3.png" alt="css3"/>
-          <a href="https://moo-d.herokuapp.com">
+          <a href="https://moo-d.herokuapp.com" target="_blank">
             <img id="logosize" src="images/icons/heroku.png" alt="heroku"/>
           </a>
         </div>
@@ -31,6 +31,18 @@ class Mood extends Component {
         </div>
 
         <div className="ui divider"></div>
+
+        <h4 className="ui center aligned icon header">
+          <a href="https://moo-d.herokuapp.com" target="_blank">
+            <div className="ui animated fade button" tabindex="0">
+              <div className="visible content"> Visit the website</div>
+              <div className="hidden content">
+              Warp 10...Engage!!
+              </div>
+            </div>
+          </a>
+        </h4>
+
 
       </div>
     )

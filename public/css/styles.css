@@ -60,6 +60,15 @@ body{
   font-size: 3em;
 }
 
+#animatedbutton{
+  margin: 0 auto;
+}
+
+#iphoneimage{
+  width: 130px;
+  height: auto;
+}
+
 /* Photography */
 /*#photography{
   margin-top: 50px;
