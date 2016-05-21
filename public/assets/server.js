@@ -29469,7 +29469,52 @@ module.exports =
 	      return _react2.default.createElement(
 	        'div',
 	        { id: 'body' },
-	        _react2.default.createElement('img', { src: 'images/underconstruction.svg', alt: 'underconstruction' })
+	        _react2.default.createElement(
+	          'h2',
+	          { className: 'ui center aligned icon header' },
+	          _react2.default.createElement('i', { className: 'circular users icon' }),
+	          'Jimmy J. Lin'
+	        ),
+	        _react2.default.createElement('div', { className: 'ui divider' }),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal world' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'World Traveler'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui massive image' },
+	              _react2.default.createElement('img', { src: '/images/body/visited.png', alt: 'visited countries' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Countries visited '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'world', className: 'ui small circular fade reveal image' },
+	          _react2.default.createElement('img', { src: '/images/body/world_traveler.png', alt: 'chris', className: 'visible content' }),
+	          _react2.default.createElement('img', { src: '/images/body/world2.jpg', alt: 'ade', className: 'hidden' })
+	        )
 	      );
 	    }
 	  }]);

@@ -20,4 +20,10 @@ $(function(){
     $.fn.fullpage.moveSectionDown();
   })
 
+  $('#world').on('click', function(){
+    console.log("clicked")
+    $('.ui.modal.world').modal('show')
+
+  })
+
 })
