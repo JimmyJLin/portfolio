@@ -29475,7 +29475,6 @@ module.exports =
 	          _react2.default.createElement('i', { className: 'circular users icon' }),
 	          'Jimmy J. Lin'
 	        ),
-	        _react2.default.createElement('div', { className: 'ui divider' }),
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'ui modal world' },
@@ -29511,9 +29510,406 @@ module.exports =
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { id: 'world', className: 'ui small circular fade reveal image' },
-	          _react2.default.createElement('img', { src: '/images/body/world_traveler.png', alt: 'chris', className: 'visible content' }),
-	          _react2.default.createElement('img', { src: '/images/body/world2.jpg', alt: 'ade', className: 'hidden' })
+	          { className: 'ui modal foodie' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Foodie'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui massive image' },
+	              _react2.default.createElement('img', { src: '/images/body/visited.png', alt: 'visited countries' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Live Life & Eat '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal warrior' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Warrior'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui massive image' },
+	              _react2.default.createElement('img', { src: '/images/body/visited.png', alt: 'visited countries' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' United States Marine Corps '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal entrepreneur' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Entrepreneur'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui massive image' },
+	              _react2.default.createElement('img', { src: '/images/body/visited.png', alt: 'visited countries' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Allthingsfrenchie '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal consultant' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Consultant'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui massive image' },
+	              _react2.default.createElement('img', { src: '/images/body/visited.png', alt: 'visited countries' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Business & Social Media Consultant '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui five column stackable fluid grid' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'column' },
+	              _react2.default.createElement(
+	                'div',
+	                { id: 'world', className: 'ui small circular fade reveal image' },
+	                _react2.default.createElement('img', { src: '/images/body/world_traveler.png', alt: 'world traveler', className: 'visible content' }),
+	                _react2.default.createElement('img', { src: '/images/body/world2.jpg', alt: 'world', className: 'hidden' })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'column' },
+	              _react2.default.createElement(
+	                'div',
+	                { id: 'foodie', className: 'ui small fade reveal image' },
+	                _react2.default.createElement('img', { src: '/images/body/foodie.png', alt: 'foodie', className: 'visible content' }),
+	                _react2.default.createElement('img', { src: '/images/body/grilledcheese.jpg', alt: 'grilled cheese', className: 'hidden' })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'column' },
+	              _react2.default.createElement(
+	                'div',
+	                { id: 'warrior', className: 'ui small fade reveal image' },
+	                _react2.default.createElement('img', { src: '/images/body/warrior.png', alt: 'warrior', className: 'visible content' }),
+	                _react2.default.createElement('img', { src: '/images/body/usmc.jpg', alt: 'usmc', className: 'hidden' })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'column' },
+	              _react2.default.createElement(
+	                'div',
+	                { id: 'entrepreneur', className: 'ui small fade reveal image' },
+	                _react2.default.createElement('img', { src: '/images/body/entrepreneur.png', alt: 'entrepreneur', className: 'visible content' }),
+	                _react2.default.createElement('img', { src: '/images/body/allthingsfrenchielogo.png', alt: 'allthingsfrenchie', className: 'hidden' })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'column' },
+	              _react2.default.createElement(
+	                'div',
+	                { id: 'consultant', className: 'ui small fade reveal image' },
+	                _react2.default.createElement('img', { src: '/images/body/consultant.png', alt: 'consultant', className: 'visible content' }),
+	                _react2.default.createElement('img', { src: '/images/body/consulting.jpg', alt: 'consulting', className: 'hidden' })
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui horizontal divider' },
+	          'Worked with'
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal nyse' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'NYSE'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui large image' },
+	              _react2.default.createElement('img', { src: '/images/body/companies/nyse.png', alt: 'nyse' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' New York Stock Exchange '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal sade' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Sade Wellness'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui large image' },
+	              _react2.default.createElement('img', { src: '/images/body/companies/sade.jpg', alt: 'sade' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Sade Wellness '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal microsoft' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Microsoft'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui large image' },
+	              _react2.default.createElement('img', { src: '/images/body/companies/microsoft.jpg', alt: 'microsoft' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Microsoft '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal pepsico' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Pepsico'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui large image' },
+	              _react2.default.createElement('img', { src: '/images/body/companies/Pepsico.png', alt: 'pepsico' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Pepsico '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal brooklyn' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Brooklyn Brewery'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui large image' },
+	              _react2.default.createElement('img', { src: '/images/body/companies/brooklyn.png', alt: 'brooklyn' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Brooklyn Brewery '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui modal milbon' },
+	          _react2.default.createElement('i', { className: 'close icon' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            'Milbon'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'image content' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'ui large image' },
+	              _react2.default.createElement('img', { src: '/images/body/companies/milbon.png', alt: 'microsoft' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'description' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'ui header' },
+	                ' Milbon USA, Inc '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ui tiny images company' },
+	          _react2.default.createElement('img', { className: 'companylogo', id: 'nyse', src: 'images/body/companies/nyse.png', alt: 'nyse' }),
+	          _react2.default.createElement('img', { className: 'companylogo', id: 'sade', src: 'images/body/companies/sade.jpg', alt: 'sade wellness' }),
+	          _react2.default.createElement('img', { className: 'companylogo', id: 'microsoft', src: 'images/body/companies/microsoft.jpg', alt: 'microsoft' }),
+	          _react2.default.createElement('img', { className: 'companylogo', id: 'pepsico', src: 'images/body/companies/Pepsico.png', alt: 'pepsico' }),
+	          _react2.default.createElement('img', { className: 'companylogo', id: 'brooklyn', src: 'images/body/companies/brooklyn.png', alt: 'brooklyn brewery' }),
+	          _react2.default.createElement('img', { className: 'companylogo2', id: 'milbon', src: 'images/body/companies/milbon.png', alt: 'milbon' })
 	        )
 	      );
 	    }
