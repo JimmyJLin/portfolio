@@ -77,6 +77,8 @@ body{
 /* main body */
 #body{
   margin-top: 50px;
+  margin-bottom: 50px;
+
 }
 
 .ui.grid{
@@ -85,14 +87,12 @@ body{
   text-align: -webkit-center;
 }
 
-
 .companylogo{
   padding-right: 10px !important;
   width: auto !important;
   height: 120px !important;
   cursor: pointer;
 }
-
 
 .companylogo2{
   padding-right: 10px !important;
@@ -103,5 +103,14 @@ body{
 
 .ui.grid>.column:not(.row), .ui.grid>.row>.column{
   cursor: pointer;
+}
+
+#alignright{
+  text-align: right;
+}
+
+.ui.piled.segment, .ui.piled.segments{
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 /* Responsive CSS */
