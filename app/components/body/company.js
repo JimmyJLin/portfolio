@@ -19,7 +19,7 @@ export default class Company extends Component {
               <img className="companytablogo" src="images/body/companies/microsoft.jpg" alt="microsoft"/>
             </a>
             <a className="item" data-tab="fourth">
-              <img className="companytablogo" src="images/body/companies/pepsico.png" alt="pepsico"/>
+              <img className="companytablogo" src="images/body/companies/pepsico.jpg" alt="pepsico"/>
             </a>
             <a className="item" data-tab="fifth">
               <img className="companytablogo" src="images/body/companies/brooklyn.png" alt="brooklyn"/>

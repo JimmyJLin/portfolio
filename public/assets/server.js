@@ -29841,7 +29841,7 @@ module.exports =
 	            _react2.default.createElement(
 	              "a",
 	              { className: "item", "data-tab": "fourth" },
-	              _react2.default.createElement("img", { className: "companytablogo", src: "images/body/companies/pepsico.png", alt: "pepsico" })
+	              _react2.default.createElement("img", { className: "companytablogo", src: "images/body/companies/pepsico.jpg", alt: "pepsico" })
 	            ),
 	            _react2.default.createElement(
 	              "a",
