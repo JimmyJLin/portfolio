@@ -29862,7 +29862,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment active", "data-tab": "first" },
-	            "NYSE",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "NYSE"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "Consultant"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -29875,9 +29884,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -29885,9 +29898,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                  )
 	                )
 	              )
 	            )
@@ -29895,7 +29923,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment", "data-tab": "second" },
-	            "Sade Wellness",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "Sade Wellness"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "Consultant"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -29908,9 +29945,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -29918,9 +29959,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                  )
 	                )
 	              )
 	            )
@@ -29928,7 +29984,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment", "data-tab": "third" },
-	            "Microsoft",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "Microsoft"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "Consultant"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -29941,9 +30006,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -29951,9 +30020,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                  )
 	                )
 	              )
 	            )
@@ -29961,7 +30045,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment", "data-tab": "fourth" },
-	            "Pepsico",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "Pepsico"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "Consultant"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -29974,9 +30067,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -29984,9 +30081,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                  )
 	                )
 	              )
 	            )
@@ -29994,7 +30106,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment", "data-tab": "fifth" },
-	            "Brooklyn Brewery",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "Brooklyn Brewery"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "Consultant"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -30007,9 +30128,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -30017,9 +30142,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                  )
 	                )
 	              )
 	            )
@@ -30027,7 +30167,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment", "data-tab": "sixth" },
-	            "Milbon USA",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "Milbon USA"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "National Sales Manager"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -30040,9 +30189,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
-	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  "div",
+	                  { className: "ui item" },
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Milbon Group is Japan's #1 professional haircare brand product company with groundbreaking treatments, haircare products for professionals and consumers."
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -30050,9 +30203,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
-	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  "div",
+	                  { className: "ui item" },
+	                  _react2.default.createElement("img", { className: "ui left floated tiny rounded image", src: "images/body/companies/milbon/product.png", alt: "product" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As the National Sales Manager for Milbon USA (subsidiary), I personally oversee the entire North American sales and customer service departments, created business development strategies and saelss processes."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "During my time at Milbon, I established processes and technological initiatives to improve sales and account management effiicency and lowered costs."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Developed sales strategy and collaborated with global sales management team for long-term strategic planning, information sharing and development of best practices."
+	                  )
 	                )
 	              )
 	            )
@@ -30060,7 +30228,16 @@ module.exports =
 	          _react2.default.createElement(
 	            "div",
 	            { className: "ui bottom attached tab segment", "data-tab": "seventh" },
-	            "Allthingsfrenchie",
+	            _react2.default.createElement(
+	              "h3",
+	              { id: "tabheader" },
+	              "allthingsfrenchie"
+	            ),
+	            _react2.default.createElement(
+	              "h4",
+	              { id: "tabheader" },
+	              "Founder"
+	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "column" },
@@ -30073,9 +30250,13 @@ module.exports =
 	                  "Overview"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                  )
 	                ),
 	                _react2.default.createElement(
 	                  "a",
@@ -30083,9 +30264,24 @@ module.exports =
 	                  "Summary"
 	                ),
 	                _react2.default.createElement(
-	                  "p",
+	                  "div",
 	                  null,
-	                  "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                  )
 	                )
 	              )
 	            )
@@ -30237,7 +30433,7 @@ module.exports =
 /* 291 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -30268,12 +30464,18 @@ module.exports =
 	  }
 
 	  _createClass(Topic, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
+	        "div",
 	        null,
-	        'Engineer'
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui middle center aligned piled segment teal" },
+	          "Engineer"
+	        )
 	      );
 	    }
 	  }]);

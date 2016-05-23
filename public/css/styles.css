@@ -124,4 +124,8 @@ body{
 .ui[class*="center aligned"].segment{
   text-align: left;
 }
+
+#tabheader{
+  text-align: center;
+}
 /* Responsive CSS */
