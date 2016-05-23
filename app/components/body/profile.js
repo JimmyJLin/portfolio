@@ -53,8 +53,8 @@ export default class Topic extends Component {
 
         {/* Short Description */}
         <div className="ui middle center aligned piled segment red">
-          <h4 className="ui header">Message</h4>
-          <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>
+          <h4 className="ui header">Summary</h4>
+          <p>As a Web Developer, I thoroughly enjoy the creative process in developing something that I’ve never done before or something that hasn’t been done yet. It’s exhilarating to me when I break everything down into smaller pieces in order to put them back together as how I would want them to be. Because of my background in business development, I understand what users want and how to adhere to the needs both on the back-end and front-end. I’m excited to put my skills to a product that I’m passionate about.</p>
         </div>
 
 

@@ -101,6 +101,13 @@ body{
   cursor: pointer;
 }
 
+.companytablogo{
+  padding-right: 5px !important;
+  width: auto !important;
+  height: 50px !important;
+  cursor: pointer;
+}
+
 .ui.grid>.column:not(.row), .ui.grid>.row>.column{
   cursor: pointer;
 }
@@ -112,5 +119,9 @@ body{
 .ui.piled.segment, .ui.piled.segments{
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+.ui[class*="center aligned"].segment{
+  text-align: left;
 }
 /* Responsive CSS */

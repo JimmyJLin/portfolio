@@ -48,7 +48,7 @@ export default class Topic extends Component {
           </div>
           <div className="image content">
             <div className="ui massive image">
-              <img src="/images/body/topics/visited.png" alt="visited countries"/>
+              <img src="/images/body/topics/6comm.png" alt="6 Comm"/>
             </div>
             <div className="description">
               <div className="ui header"> United States Marine Corps </div>
@@ -65,7 +65,7 @@ export default class Topic extends Component {
           </div>
           <div className="image content">
             <div className="ui massive image">
-              <img src="/images/body/topics/visited.png" alt="visited countries"/>
+              <img src="/images/body/topics/allthingsfrenchielogo.png" alt="visited countries"/>
             </div>
             <div className="description">
               <div className="ui header"> Allthingsfrenchie </div>

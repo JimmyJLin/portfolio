@@ -4,120 +4,119 @@ export default class Company extends Component {
   render(){
     return(
       <div>
-        {/* Company Modals */}
 
-        {/* nyse modal */}
-        <div className="ui modal nyse">
-          <i className="close icon"></i>
-          <div className="header">
+        {/* tabs */}
+        <div className="ui middle center aligned piled segment red">
+
+          <div className="ui top attached stackable tabular menu">
+            <a className="item active" data-tab="first">
+              <img className="companytablogo" src="images/body/companies/nyse.png" alt="nyse"/>
+            </a>
+            <a className="item" data-tab="second">
+              <img className="companytablogo" src="images/body/companies/sade.jpg" alt="sade wellness"/>
+            </a>
+            <a className="item" data-tab="third">
+              <img className="companytablogo" src="images/body/companies/microsoft.jpg" alt="microsoft"/>
+            </a>
+            <a className="item" data-tab="fourth">
+              <img className="companytablogo" src="images/body/companies/pepsico.png" alt="pepsico"/>
+            </a>
+            <a className="item" data-tab="fifth">
+              <img className="companytablogo" src="images/body/companies/brooklyn.png" alt="brooklyn"/>
+            </a>
+            <a className="item" data-tab="sixth">
+              <img className="companytablogo" src="images/body/companies/milbon.png" alt="milbon"/>
+            </a>
+            <a className="item" data-tab="seventh">
+              <img className="companytablogo" src="images/body/topics/allthingsfrenchielogo.png" alt="allthingsfrenchielogo"/>
+            </a>
+          </div>
+
+          <div className="ui bottom attached tab segment active" data-tab="first">
             NYSE
-          </div>
-          <div className="image content">
-            <div className="ui large image">
-              <img src="/images/body/companies/nyse.png" alt="nyse"/>
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
             </div>
-            <div className="description">
-              <div className="ui header"> New York Stock Exchange </div>
-              <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
-            </div>
           </div>
-        </div>
 
-        {/* nyse modal */}
-        <div className="ui modal sade">
-          <i className="close icon"></i>
-          <div className="header">
+          <div className="ui bottom attached tab segment" data-tab="second">
             Sade Wellness
-          </div>
-          <div className="image content">
-            <div className="ui large image">
-              <img src="/images/body/companies/sade.jpg" alt="sade"/>
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
             </div>
-            <div className="description">
-              <div className="ui header"> Sade Wellness </div>
-              <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
-            </div>
           </div>
-        </div>
 
-        {/* microsoft modal */}
-        <div className="ui modal microsoft">
-          <i className="close icon"></i>
-          <div className="header">
+          <div className="ui bottom attached tab segment" data-tab="third">
             Microsoft
-          </div>
-          <div className="image content">
-            <div className="ui large image">
-              <img src="/images/body/companies/microsoft.jpg" alt="microsoft"/>
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
             </div>
-            <div className="description">
-              <div className="ui header"> Microsoft </div>
-              <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
-            </div>
           </div>
-        </div>
 
-
-        {/* pepsico modal */}
-        <div className="ui modal pepsico">
-          <i className="close icon"></i>
-          <div className="header">
+          <div className="ui bottom attached tab segment" data-tab="fourth">
             Pepsico
-          </div>
-          <div className="image content">
-            <div className="ui large image">
-              <img src="/images/body/companies/Pepsico.png" alt="pepsico"/>
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
             </div>
-            <div className="description">
-              <div className="ui header"> Pepsico </div>
-              <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
-            </div>
           </div>
-        </div>
 
-        {/* brooklyn modal */}
-        <div className="ui modal brooklyn">
-          <i className="close icon"></i>
-          <div className="header">
+          <div className="ui bottom attached tab segment" data-tab="fifth">
             Brooklyn Brewery
-          </div>
-          <div className="image content">
-            <div className="ui large image">
-              <img src="/images/body/companies/brooklyn.png" alt="brooklyn"/>
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
             </div>
-            <div className="description">
-              <div className="ui header"> Brooklyn Brewery </div>
-              <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
+          </div>
+
+          <div className="ui bottom attached tab segment" data-tab="sixth">
+            Milbon USA
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="ui bottom attached tab segment" data-tab="seventh">
+            Allthingsfrenchie
+            <div className="column">
+              <div className="ui raised segment">
+              <a className="ui red left ribbon label">Overview</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              <a className="ui blue left ribbon label">Summary</a>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* milbon modal */}
-        <div className="ui modal milbon">
-          <i className="close icon"></i>
-          <div className="header">
-            Milbon
-          </div>
-          <div className="image content">
-            <div className="ui large image">
-              <img src="/images/body/companies/milbon.png" alt="microsoft"/>
-            </div>
-            <div className="description">
-              <div className="ui header"> Milbon USA, Inc </div>
-              <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
-            </div>
-          </div>
-        </div>
-
-        {/* worked with company lists*/}
-        <div className="ui tiny images company">
-          <img className="companylogo" id="nyse" src="images/body/companies/nyse.png" alt="nyse"/>
-          <img className="companylogo" id="sade" src="images/body/companies/sade.jpg" alt="sade wellness"/>
-          <img className="companylogo" id="microsoft" src="images/body/companies/microsoft.jpg" alt="microsoft"/>
-          <img className="companylogo" id="pepsico" src="images/body/companies/Pepsico.png" alt="pepsico"/>
-          <img className="companylogo" id="brooklyn" src="images/body/companies/brooklyn.png" alt="brooklyn brewery"/>
-          <img className="companylogo2" id="milbon" src="images/body/companies/milbon.png" alt="milbon"/>
-        </div>
       </div>
     )
   }

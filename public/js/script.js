@@ -65,4 +65,7 @@ $(function(){
   $('#milbon').on('click', function(){
     $('.ui.modal.milbon').modal('show')
   })
+
+  // company tabs
+  $('.menu .item').tab()
 })
