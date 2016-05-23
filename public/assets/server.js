@@ -101,12 +101,12 @@ module.exports =
 	  var authenticated = req.isAuthenticated();
 	  var history = (0, _reactRouter.createMemoryHistory)();
 	  var store = (0, _configureStore2.default)({
-	    user: {
-	      authenticated: authenticated,
-	      isWaiting: false,
-	      message: '',
-	      isLogin: true
-	    }
+	    // user: {
+	    //   authenticated,
+	    //   isWaiting: false,
+	    //   message: '',
+	    //   isLogin: true
+	    // }
 	  }, history);
 	  var routes = (0, _routes2.default)(store);
 
