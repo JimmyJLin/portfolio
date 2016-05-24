@@ -42,30 +42,34 @@ $(function(){
   })
 
   // companies modal
-  $('#microsoft').on('click', function(){
-    $('.ui.modal.microsoft').modal('show')
+
+  $('#ga').on('click', function(){
+    $('.ui.modal.ga').modal('show')
   })
 
   $('#sade').on('click', function(){
     $('.ui.modal.sade').modal('show')
   })
 
-  $('#nyse').on('click', function(){
-    $('.ui.modal.nyse').modal('show')
+  $('#microsoft').on('click', function(){
+    $('.ui.modal.microsoft').modal('show')
   })
 
   $('#pepsico').on('click', function(){
     $('.ui.modal.pepsico').modal('show')
   })
 
-  $('#brooklyn').on('click', function(){
-    $('.ui.modal.brooklyn').modal('show')
+  $('#nyse').on('click', function(){
+    $('.ui.modal.nyse').modal('show')
   })
 
   $('#milbon').on('click', function(){
     $('.ui.modal.milbon').modal('show')
   })
 
+  $('#allthingsfrenchie').on('click', function(){
+    $('.ui.modal.allthingsfrenchie').modal('show')
+  })
   // company tabs
   $('.menu .item').tab()
 })

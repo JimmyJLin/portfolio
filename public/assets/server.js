@@ -29819,6 +29819,78 @@ module.exports =
 	        null,
 	        _react2.default.createElement(
 	          "div",
+	          { className: "ui modal ga" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "General Assembly"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui large image" },
+	              _react2.default.createElement("img", { src: "/images/body/companies/ga/ga.png", alt: "ga" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui modal sade" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "Sade Wellness"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui large image" },
+	              _react2.default.createElement("img", { src: "/images/body/companies/sade/sadewellness.jpg", alt: "sade" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui modal nyse" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "NYSE Euronext"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement("img", { src: "/images/body/companies/nyse/nyse.jpg", alt: "nyse" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui modal allthingsfrenchie" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "allthingsfrenchie"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui large image" },
+	              _react2.default.createElement("img", { src: "/images/body/companies/allthingsfrenchie/allthingsfrenchiesite.jpg", alt: "nyse" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
 	          { className: "ui middle center aligned piled segment red" },
 	          _react2.default.createElement(
 	            "div",
@@ -29826,7 +29898,7 @@ module.exports =
 	            _react2.default.createElement(
 	              "a",
 	              { className: "item active", "data-tab": "first" },
-	              _react2.default.createElement("img", { className: "companytablogo", src: "images/body/companies/nyse.png", alt: "nyse" })
+	              _react2.default.createElement("img", { className: "companytablogo", src: "images/body/companies/ga/ga.png", alt: "ga" })
 	            ),
 	            _react2.default.createElement(
 	              "a",
@@ -29846,7 +29918,7 @@ module.exports =
 	            _react2.default.createElement(
 	              "a",
 	              { className: "item", "data-tab": "fifth" },
-	              _react2.default.createElement("img", { className: "companytablogo", src: "images/body/companies/brooklyn.png", alt: "brooklyn" })
+	              _react2.default.createElement("img", { className: "companytablogo", src: "images/body/companies/nyse.png", alt: "nyse" })
 	            ),
 	            _react2.default.createElement(
 	              "a",
@@ -29865,12 +29937,12 @@ module.exports =
 	            _react2.default.createElement(
 	              "h3",
 	              { id: "tabheader" },
-	              "NYSE"
+	              "General Assembly"
 	            ),
 	            _react2.default.createElement(
 	              "h4",
 	              { id: "tabheader" },
-	              "Consultant"
+	              "Immersive"
 	            ),
 	            _react2.default.createElement(
 	              "div",
@@ -29885,11 +29957,36 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                    "12 week immersive program which teaches passionate, entrepreneurial individuals the skills and knowledge needed for a junior web developer position."
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "ui tiny images" },
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "React", src: "images/icons/react.png", alt: "react native" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "React Native", src: "images/icons/reactnative.png", alt: "react native" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Redux", src: "images/icons/redux.png", alt: "redux" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Webpack", src: "images/icons/webpack.png", alt: "webpack" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "ES5", src: "images/icons/javascript5.png", alt: "javaScript" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "ES6", src: "images/icons/javascript.png", alt: "javaScript" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "jQuery", src: "images/icons/jquery.png", alt: "jquery" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Ruby", src: "images/icons/ruby.png", alt: "ruby" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Rails", src: "images/icons/rails.png", alt: "rail" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Node Express", src: "images/icons/nodeexpress.png", alt: "express" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "PostgreSQL", src: "images/icons/postgresql.png", alt: "postgresql" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Firebase", src: "images/icons/firebase.png", alt: "firebase" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "HTML5", src: "images/icons/html.png", alt: "html" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "CSS3", src: "images/icons/css3.png", alt: "css3" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Mocha", src: "images/icons/mocha.png", alt: "mocha" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Chai", src: "images/icons/chai.png", alt: "chai" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Github", src: "images/icons/Github.png", alt: "github" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Heroku", src: "images/icons/heroku.png", alt: "heroku" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Testfairy", src: "images/icons/testfairy.png", alt: "test fairy" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Squarespace", src: "images/icons/squarespace.png", alt: "squarespace" }),
+	                    _react2.default.createElement("img", { id: "logosize", className: "ui image pop visible", "data-title": "Wordpress", src: "images/icons/wordpress.png", alt: "wordpress" })
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -29899,22 +29996,27 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
-	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  { className: "paddingtop10" },
+	                  _react2.default.createElement("img", { id: "ga", className: "ui left floated small rounded image", src: "images/body/companies/ga/ga.png", alt: "ga" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                    "Built Responsive full stack CRUD web applications"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                    "Designed and implemented wireframs, relationship diagrams and built RESTful APIs"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                    "Experienced with both server side and client side rendering"
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Web & Mobile iOS Developer"
 	                  )
 	                )
 	              )
@@ -29946,11 +30048,16 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                    "Sade Wellness provide comprehensive wellness programs to companies of 200 or more employees, focusing on wellness of employees as well as the organization's culture."
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "As a small start-up Sade Wellness is faced with scalibility in terms of Human Resources, especially in the area of talent attraction, retention and development "
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -29960,22 +30067,22 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
-	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  { className: "paddingtop10" },
+	                  _react2.default.createElement("img", { id: "sade", className: "ui left floated small rounded image", src: "images/body/companies/sade/sadewellness.jpg", alt: "sade" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                    "Implementation of EVP (Employee Value Proposition)"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                    "Re-organize Sade into a flatten organization to reduce top down communication, promote high-involvement management rather than micromanaging and retain the entrepreneurial innovation of a small start-up"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                    "Utilize 9 Box Talent Assessment to identify the high potential and high performance employee, and built a critical mass of future leaders"
 	                  )
 	                )
 	              )
@@ -30007,7 +30114,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
@@ -30021,7 +30128,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
 	                  _react2.default.createElement(
 	                    "p",
@@ -30068,7 +30175,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
@@ -30082,7 +30189,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
 	                  _react2.default.createElement(
 	                    "p",
@@ -30109,7 +30216,7 @@ module.exports =
 	            _react2.default.createElement(
 	              "h3",
 	              { id: "tabheader" },
-	              "Brooklyn Brewery"
+	              "NYSE"
 	            ),
 	            _react2.default.createElement(
 	              "h4",
@@ -30129,7 +30236,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
@@ -30143,8 +30250,8 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
-	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  { className: "paddingtop10" },
+	                  _react2.default.createElement("img", { id: "nyse", className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
@@ -30190,7 +30297,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  { className: "ui item" },
+	                  { className: "ui item paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
@@ -30204,7 +30311,7 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  { className: "ui item" },
+	                  { className: "ui item paddingtop10" },
 	                  _react2.default.createElement("img", { className: "ui left floated tiny rounded image", src: "images/body/companies/milbon/product.png", alt: "product" }),
 	                  _react2.default.createElement(
 	                    "p",
@@ -30251,11 +30358,39 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
+	                  { className: "paddingtop10" },
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                    "Allthingsfrenchie is an e-commerce fashion boutique inspired by our French Bulldogs & their Friends.  We offers one stop shop for all your animal inspired oufits, bags and accessories."
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "ui center aligned column stackable fluid grid" },
+	                    _react2.default.createElement(
+	                      "div",
+	                      { className: "column" },
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "http://www.allthingsfrenchie.com" },
+	                        _react2.default.createElement("i", { className: "icon world big blue" })
+	                      ),
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "http://www.facebook.com/allthingsfrenchie.shop" },
+	                        _react2.default.createElement("i", { className: "icon facebook square big blue" })
+	                      ),
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "http://instagram.com/allthingsfrenchie_shop" },
+	                        _react2.default.createElement("i", { className: "icon instagram big orange" })
+	                      ),
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "https://www.pinterest.com/jimmy3633/" },
+	                        _react2.default.createElement("i", { className: "icon pinterest square big red" })
+	                      )
+	                    )
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -30265,17 +30400,17 @@ module.exports =
 	                ),
 	                _react2.default.createElement(
 	                  "div",
-	                  null,
-	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  { className: "paddingtop10" },
+	                  _react2.default.createElement("img", { id: "allthingsfrenchie", className: "ui left floated small rounded image", src: "images/body/companies/allthingsfrenchie/allthingsfrenchiesite.jpg", alt: "nyse" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                    " talk about the design / development process for allthingsfrenchie"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                    "Social Media and Business consultant for small business"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
@@ -30544,7 +30679,7 @@ module.exports =
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'images/jimmy_lin_resume.pdf', className: 'item', target: '_blank' },
-	            _react2.default.createElement('i', { className: 'icon dropbox large blue', target: '_blank' }),
+	            _react2.default.createElement('i', { className: 'icon download large blue', target: '_blank' }),
 	            'Resume'
 	          ),
 	          _react2.default.createElement(

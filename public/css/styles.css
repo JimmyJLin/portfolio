@@ -9,12 +9,15 @@ body{
 
 /* Header */
 #header{
-  background: transparent;
+  background: white;
+  opacity: 0.8;
 }
 
 /* Footer */
 #footer{
-  background: transparent;
+  background: white;
+  opacity: 0.8;
+
 }
 
 /* Portfolio */
@@ -128,4 +131,19 @@ body{
 #tabheader{
   text-align: center;
 }
+
+#nyse:hover, #allthingsfrenchie:hover, #sade:hover, #ga:hover{
+  cursor: pointer;
+}
+
+.ui.modal>.content{
+  text-align: -webkit-center;
+}
+
+.paddingtop10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
 /* Responsive CSS */
