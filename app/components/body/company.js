@@ -90,29 +90,6 @@ export default class Company extends Component {
                 <a className="ui red left ribbon label">Overview</a>
                 <div className="paddingtop10">
                   <p>12 week immersive program which teaches passionate, entrepreneurial individuals the skills and knowledge needed for a junior web developer position.</p>
-                  <div className="ui tiny images">
-                    <img id="logosize" className="ui image pop visible" data-title="React" src="images/icons/react.png" alt="react native"/>
-                    <img id="logosize" className="ui image pop visible" data-title="React Native" src="images/icons/reactnative.png" alt="react native"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Redux" src="images/icons/redux.png" alt="redux"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Webpack" src="images/icons/webpack.png" alt="webpack"/>
-                    <img id="logosize" className="ui image pop visible" data-title="ES5" src="images/icons/javascript5.png" alt="javaScript"/>
-                    <img id="logosize" className="ui image pop visible" data-title="ES6" src="images/icons/javascript.png" alt="javaScript"/>
-                    <img id="logosize" className="ui image pop visible" data-title="jQuery" src="images/icons/jquery.png" alt="jquery"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Ruby" src="images/icons/ruby.png" alt="ruby"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Rails" src="images/icons/rails.png" alt="rail"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Node Express" src="images/icons/nodeexpress.png" alt="express"/>
-                    <img id="logosize" className="ui image pop visible" data-title="PostgreSQL" src="images/icons/postgresql.png" alt="postgresql"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Firebase" src="images/icons/firebase.png" alt="firebase"/>
-                    <img id="logosize" className="ui image pop visible" data-title="HTML5" src="images/icons/html.png" alt="html"/>
-                    <img id="logosize" className="ui image pop visible" data-title="CSS3" src="images/icons/css3.png" alt="css3"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Mocha" src="images/icons/mocha.png" alt="mocha"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Chai" src="images/icons/chai.png" alt="chai"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Github" src="images/icons/Github.png" alt="github"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Heroku" src="images/icons/heroku.png" alt="heroku"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Testfairy" src="images/icons/testfairy.png" alt="test fairy"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Squarespace" src="images/icons/squarespace.png" alt="squarespace"/>
-                    <img id="logosize" className="ui image pop visible" data-title="Wordpress" src="images/icons/wordpress.png" alt="wordpress"/>
-                  </div>
                 </div>
                 <a className="ui blue left ribbon label">Summary</a>
                 <div className="paddingtop10">
