@@ -28,7 +28,7 @@ export default class Topic extends Component {
 
           {/* Back End Frameworks */}
           <div className="ui raised segment">
-            <div className="ui horizontal divider">Front End Frameworks</div>
+            <div className="ui horizontal divider">Back End Frameworks</div>
             <div className="ui tiny images">
               <img id="logosize" className="ui image pop visible" data-title="ES5" src="images/icons/javascript5.png" alt="javaScript"/>
               <img id="logosize" className="ui image pop visible" data-title="ES6" src="images/icons/javascript.png" alt="javaScript"/>

@@ -29857,6 +29857,36 @@ module.exports =
 	        ),
 	        _react2.default.createElement(
 	          "div",
+	          { className: "ui modal microsoft" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "Microsoft"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement("img", { src: "/images/body/companies/microsoft/microsoft.jpg", alt: "microsoft" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui modal pepsico" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "Pepsico"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement("img", { src: "/images/body/companies/pepsico/pepsico.jpg", alt: "pepsico" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
 	          { className: "ui modal nyse" },
 	          _react2.default.createElement("i", { className: "close icon" }),
 	          _react2.default.createElement(
@@ -29868,6 +29898,25 @@ module.exports =
 	            "div",
 	            { className: "ui middle center aligned content" },
 	            _react2.default.createElement("img", { src: "/images/body/companies/nyse/nyse.jpg", alt: "nyse" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui modal milbon" },
+	          _react2.default.createElement("i", { className: "close icon" }),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            "Milbon USA"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ui middle center aligned content" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "ui large image" },
+	              _react2.default.createElement("img", { src: "/images/body/companies/milbon/product.png", alt: "milbon" })
+	            )
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -29976,17 +30025,22 @@ module.exports =
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Built Responsive full stack CRUD web applications"
+	                    " Developed responsive, functional and appealing web and mobile applications applications based on usability "
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Designed and implemented wireframs, relationship diagrams and built RESTful APIs"
+	                    "Designed and build responsive full stack CRUD web applications with RESTful APIs"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Experienced with both server side and client side rendering"
+	                    "Designed and implemented mockups, wireframs, and relationship diagrams"
+	                  ),
+	                  _react2.default.createElement(
+	                    "p",
+	                    null,
+	                    "Experienced with both server side and client side applications"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
@@ -30093,7 +30147,7 @@ module.exports =
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                    "Prior to Microsoft current CEO Satya Nadella took over as the new CEO, Microsoft was not just searching for CEO but new directions as well.  Part of consultant work was to examine various options for long term straegic positioning and recommend the best option for Microsoft to leverage its technological knowledges, human and capital resourcces."
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -30104,21 +30158,21 @@ module.exports =
 	                _react2.default.createElement(
 	                  "div",
 	                  { className: "paddingtop10" },
-	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement("img", { id: "microsoft", className: "ui left floated small rounded image", src: "images/body/companies/microsoft/microsoft.jpg", alt: "microsoft" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                    "Restruct Microsoft into functional grouops (OS, Devices, App & Cloud) to leverage Huaman and Capital Resources, to think like a startup, wit freater cross-functional collaboration, to reduce response time and focus on product execution"
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                    "In the end is to turn Microsoft into a cloub-based consumer product company able to deliver digital content through smartphone, tablet, gaming console and PC to consumer's hand and home."
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                    "Create a cross-platform Operating System(OS) for all Microsoft consumer devices to aniticipate the future market demands and trends."
 	                  )
 	                )
 	              )
@@ -30154,7 +30208,7 @@ module.exports =
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "With overall industry in decline and hightly competitive environment, how Event Marketing Department can improve the strategic values and competitiveness of the NYSE Euronext"
+	                    "With the growth of Ambient & Chilled Drinks / Juice Drinks reaching maturity, we were tasked with evaulating the current consumer perception of PepsiCo's juice brand, find and recommend a new product based on our consumer research."
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -30165,21 +30219,21 @@ module.exports =
 	                _react2.default.createElement(
 	                  "div",
 	                  { className: "paddingtop10" },
-	                  _react2.default.createElement("img", { className: "ui left floated small rounded image", src: "images/body/companies/nyse/nyse.jpg", alt: "nyse" }),
+	                  _react2.default.createElement("img", { id: "pepsico", className: "ui left floated small rounded image", src: "images/body/companies/pepsico/pepsico.jpg", alt: "nyse" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "As one of the integral part of the NYSE Euronext.  Event Marketing needs to transition from an execution only department to the one that has a more collaborative focus, with the end results of brining value and add a differentiation factor to the NYSE in it's highly competitive environment."
+	                    "The future of juice is ACAI Meal Replacement Chilled Drinks with low caolires, infused with superfruuits, ACAI & Chia seeds to satisfy hunger and inner happiness while contributing to healthier, more vibrant lifestyle."
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Event Marketing Department needs to find efficiencies through adoptation of new technologies that will enable collaboration and reduce repetitive tasks."
+	                    "Created multifacet marketing campaigns, from traiditonal partnership with health, wellness company, to MULOC to ditial mass media marketing."
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                    "The new ACAI meal replacement chilled juice will aligns with PepsiCo's overall and juice strategies and meets consumer demand for healthy and all natural chileld juice."
 	                  )
 	                )
 	              )
@@ -30287,7 +30341,7 @@ module.exports =
 	                _react2.default.createElement(
 	                  "div",
 	                  { className: "ui item paddingtop10" },
-	                  _react2.default.createElement("img", { className: "ui left floated tiny rounded image", src: "images/body/companies/milbon/product.png", alt: "product" }),
+	                  _react2.default.createElement("img", { id: "milbon", className: "ui left floated tiny rounded image", src: "images/body/companies/milbon/product.png", alt: "product" }),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
@@ -30380,17 +30434,17 @@ module.exports =
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    " talk about the design / development process for allthingsfrenchie"
+	                    " allthingsfrenchie was borned out of our loves for french bulldogs and the needs for one centralized place for all french bulldog related fashion accessories "
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Social Media and Business consultant for small business"
+	                    "As an new e-commerce site, part of the challenges was in the design process, create a easy to use interface and adding additional products for other animal lovers. "
 	                  ),
 	                  _react2.default.createElement(
 	                    "p",
 	                    null,
-	                    "Establishing and implementing metrics to help gauge success at each step will guide the Event Marketing toward the path of improve strategic values and improve competitiveness for the NYSE Euronext"
+	                    "With a limited budget for marketing, we had to relies heavily on social medias to better market our products to our target auidences."
 	                  )
 	                )
 	              )
@@ -30618,7 +30672,7 @@ module.exports =
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'ui horizontal divider' },
-	              'Front End Frameworks'
+	              'Back End Frameworks'
 	            ),
 	            _react2.default.createElement(
 	              'div',
