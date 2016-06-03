@@ -13,6 +13,10 @@ body{
   opacity: 0.8;
 }
 
+.ui.header>.image, .ui.header>img{
+  width: 8.5em;
+}
+
 /* Footer */
 #footer{
   background: white;

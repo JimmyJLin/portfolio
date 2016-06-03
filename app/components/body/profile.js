@@ -8,7 +8,8 @@ export default class Topic extends Component {
         {/* profile */}
         <div>
           <h2 className="ui center aligned icon header">
-            <i className="circular users icon"></i>
+            <img src="images/body/header/jimmy.png" alt="jimmy"/>
+            <br/>
             Jimmy J. Lin
           </h2>
         </div>

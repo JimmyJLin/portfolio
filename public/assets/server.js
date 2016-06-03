@@ -30506,7 +30506,8 @@ module.exports =
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "ui center aligned icon header" },
-	            _react2.default.createElement("i", { className: "circular users icon" }),
+	            _react2.default.createElement("img", { src: "images/body/header/jimmy.png", alt: "jimmy" }),
+	            _react2.default.createElement("br", null),
 	            "Jimmy J. Lin"
 	          )
 	        ),
