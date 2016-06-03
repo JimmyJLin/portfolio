@@ -12,7 +12,7 @@ class Sohoduck extends Component {
 
   render(){
     return (
-      <div id="sohoduck" className="section active">
+      <div id="sohoduck" className="section">
 
         <div className="ui horizontal divider">SoHo Duck</div>
         <h4 className="ui header">
