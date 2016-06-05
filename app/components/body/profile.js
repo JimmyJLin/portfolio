@@ -8,7 +8,7 @@ export default class Topic extends Component {
         {/* profile */}
         <div>
           <h2 className="ui center aligned icon header">
-            <img src="images/body/header/jimmy.png" alt="jimmy"/>
+            <img className="ui massive circular image" src="images/body/header/headshot.png" alt="jimmy"/>
             <br/>
             Jimmy J. Lin
           </h2>
