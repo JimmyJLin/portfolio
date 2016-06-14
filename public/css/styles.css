@@ -76,6 +76,10 @@ body{
   height: auto;
 }
 
+#developer{
+  padding-bottom: 100px;
+}
+
 /* Photography */
 /*#photography{
   margin-top: 50px;

@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 export default class Topic extends Component {
   render(){
     return(
-      <div>
+      <div id="developer">
         <br/>
         <br/>
         <div className="ui middle center aligned piled segment teal">
