@@ -147,7 +147,7 @@ module.exports =
 	          _react2.default.createElement(_reactRouter.RouterContext, props)
 	        ));
 
-	        res.status(200).send('\n          <!doctype html>\n          <html ' + _Meta2.default.htmlAttributes.toString() + '>\n            <head>\n\n              ' + _Meta2.default.title.toString() + '\n              ' + _Meta2.default.meta.toString() + '\n              ' + _Meta2.default.link.toString() + '\n\n              <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">\n              <script src="semantic/dist/jquery.min.js"></script>\n              <script src="semantic/dist/semantic.min.js"></script>\n\n              <link rel="stylesheet" href="css/styles.css">\n\n              <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />\n              <script type="text/javascript" src="js/jquery.fullPage.js"></script>\n\n              <link href="css/lightbox.css" rel="stylesheet">\n              <script src="js/lightbox.js"></script>\n\n              <script type="text/javascript" src="js/script.js"></script>\n\n            </head>\n            <body>\n              <div id="app">' + componentHTML + '</div>\n              <script>window.__INITIAL_STATE__ = ' + JSON.stringify(initialState) + ';</script>\n              <script type="text/javascript" charset="utf-8" src="/assets/app.js"></script>\n            </body>\n          </html>\n        ');
+	        res.status(200).send('\n          <!doctype html>\n          <html ' + _Meta2.default.htmlAttributes.toString() + '>\n            <head>\n\n              ' + _Meta2.default.title.toString() + '\n              ' + _Meta2.default.meta.toString() + '\n              ' + _Meta2.default.link.toString() + '\n\n              <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">\n              <script src="semantic/dist/jquery.min.js"></script>\n              <script src="semantic/dist/semantic.min.js"></script>\n\n              <link rel="stylesheet" href="css/styles.css">\n\n              <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />\n              <script type="text/javascript" src="js/jquery.fullPage.js"></script>\n\n              <link href="css/lightbox.css" rel="stylesheet">\n              <script src="js/lightbox.js"></script>\n\n              <script type="text/javascript" src="js/script.js"></script>\n\n              <script>\n                (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){\n                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n                })(window,document,\'script\',\'https://www.google-analytics.com/analytics.js\',\'ga\');\n                ga(\'create\', \'UA-79156473-1\', \'auto\');\n                ga(\'send\', \'pageview\');\n              </script>\n\n            </head>\n            <body>\n              <div id="app">' + componentHTML + '</div>\n              <script>window.__INITIAL_STATE__ = ' + JSON.stringify(initialState) + ';</script>\n              <script type="text/javascript" charset="utf-8" src="/assets/app.js"></script>\n            </body>\n          </html>\n        ');
 	      }).catch(function (err) {
 	        res.status(500).json(err);
 	      });
@@ -30705,21 +30705,6 @@ module.exports =
 	              _react2.default.createElement('img', { id: 'logosize', className: 'ui image pop visible', 'data-title': 'Testfairy', src: 'images/icons/testfairy.png', alt: 'test fairy' }),
 	              _react2.default.createElement('img', { id: 'logosize', className: 'ui image pop visible', 'data-title': 'Squarespace', src: 'images/icons/squarespace.png', alt: 'squarespace' }),
 	              _react2.default.createElement('img', { id: 'logosize', className: 'ui image pop visible', 'data-title': 'Wordpress', src: 'images/icons/wordpress.png', alt: 'wordpress' })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'ui raised segment' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'ui horizontal divider' },
-	              'Portfolio'
-	            ),
-	            _react2.default.createElement(
-	              _reactRouter.Link,
-	              { to: '/portfolio', className: 'item' },
-	              _react2.default.createElement('i', { className: 'icon block layout' }),
-	              'Portfolio'
 	            )
 	          )
 	        )

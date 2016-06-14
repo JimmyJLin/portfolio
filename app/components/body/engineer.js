@@ -54,10 +54,10 @@ export default class Topic extends Component {
             </div>
           </div>
 
-          <div className="ui raised segment">
+          {/*<div className="ui raised segment">
             <div className="ui horizontal divider">Portfolio</div>
             <Link to="/portfolio" className="item"><i className="icon block layout"></i>Portfolio</Link>
-          </div>
+          </div>*/}
 
         </div>
 
