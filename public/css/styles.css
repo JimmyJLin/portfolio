@@ -212,6 +212,21 @@ p{
     width: 270px;
   }
 
+  .banner-text{
+    padding-left: 30px !important;
+  }
+
+  .banner-text-inner h2{
+    font-size: 1rem;
+  }
+
+  .banner-text .banner-text-inner p{
+    font-size: 0.65rem;
+  }
+
+  .ui.button, .ui.buttons .button, .ui.buttons .or{
+    font-size: 0.4rem;
+  }
 }
 
 /* iPhone 5 & 5S */
@@ -228,38 +243,21 @@ p{
     width: 270px;
   }
 
-}
-
-/* iPhone 6plus */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  #logosize {
-    height: 35px;
+  .banner-text{
+    padding-left: 30px !important;
   }
 
-  #iphoneimage{
-    width: 45px;
+  .banner-text-inner h2{
+    font-size: 1rem;
   }
 
-  #hoverimage{
-    width: 300px;
+  .banner-text .banner-text-inner p{
+    font-size: 0.65rem;
   }
 
-}
-
-/* iPhone 6 & 6S */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  #logosize {
-    height: 35px;
+  .ui.button, .ui.buttons .button, .ui.buttons .or{
+    font-size: 0.4rem;
   }
-
-  #iphoneimage{
-    width: 45px;
-  }
-
-  #hoverimage{
-    width: 300px;
-  }
-
 }
 
 /* iPhone 6plus */
@@ -279,7 +277,69 @@ p{
   .banner-text{
     padding-left: 30px !important;
   }
-  
+
+  .banner-text-inner h2{
+    font-size: 1rem;
+  }
+
+  .banner-text .banner-text-inner p{
+    font-size: 0.65rem;
+  }
+
+  .ui.button, .ui.buttons .button, .ui.buttons .or{
+    font-size: 0.4rem;
+  }
+}
+
+/* iPhone 6 & 6S */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #logosize {
+    height: 35px;
+  }
+
+  #iphoneimage{
+    width: 45px;
+  }
+
+  #hoverimage{
+    width: 300px;
+  }
+
+  .banner-text{
+    padding-left: 30px !important;
+  }
+
+  .banner-text-inner h2{
+    font-size: 1rem;
+  }
+
+  .banner-text .banner-text-inner p{
+    font-size: 0.65rem;
+  }
+
+  .ui.button, .ui.buttons .button, .ui.buttons .or{
+    font-size: 0.4rem;
+  }
+}
+
+/* iPhone 6plus */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #logosize {
+    height: 35px;
+  }
+
+  #iphoneimage{
+    width: 45px;
+  }
+
+  #hoverimage{
+    width: 300px;
+  }
+
+  .banner-text{
+    padding-left: 30px !important;
+  }
+
   .banner-text-inner h2{
     font-size: 1rem;
   }
@@ -307,4 +367,19 @@ p{
     width: 300px;
   }
 
+  .banner-text{
+    padding-left: 30px !important;
+  }
+
+  .banner-text-inner h2{
+    font-size: 1rem;
+  }
+
+  .banner-text .banner-text-inner p{
+    font-size: 0.65rem;
+  }
+
+  .ui.button, .ui.buttons .button, .ui.buttons .or{
+    font-size: 0.4rem;
+  }
 }
