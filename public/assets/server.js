@@ -31200,7 +31200,7 @@ module.exports =
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { id: "displayinline", href: "https://github.com/JimmyJLin/liwei_beauty", target: "_blank" },
+	            { id: "displayinline", href: "https://github.com/JimmyJLin/Mood_d", target: "_blank" },
 	            _react2.default.createElement("i", { className: "ui icon large github black" })
 	          )
 	        )
