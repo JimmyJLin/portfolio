@@ -36,7 +36,7 @@ class Mood extends Component {
           <a id="displayinline" href="https://moo-d.herokuapp.com" target="_blank">
             <i className="ui icon large world black"></i>
           </a>
-          <a id="displayinline" href="https://github.com/JimmyJLin/liwei_beauty" target="_blank">
+          <a id="displayinline" href="https://github.com/JimmyJLin/Mood_d" target="_blank">
             <i className="ui icon large github black"></i>
           </a>
         </h4>
