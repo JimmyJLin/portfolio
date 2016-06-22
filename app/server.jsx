@@ -109,6 +109,9 @@ export default function render(req, res) {
                 ga('send', 'pageview');
               </script>
 
+              <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+              <script src="js/jquery.flexslider.js"></script>
+
             </head>
             <body>
               <div id="app">${componentHTML}</div>

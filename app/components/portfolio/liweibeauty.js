@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Liweibeauty extends Component {
   render(){
     return (
-      <div id="sprinkle" className="section active">
+      <div id="liweibeauty" className="section active">
 
         <div className="ui horizontal divider">Liwei Beauty International</div>
         <h4 className="ui header">

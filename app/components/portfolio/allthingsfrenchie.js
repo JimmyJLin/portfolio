@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Allthingsfrenchie extends Component {
   render(){
     return (
-      <div id="sprinkle" className="section">
+      <div id="allthingsfrenchie" className="section">
 
         <div className="ui horizontal divider">allthingsfrenchie</div>
         <h4 className="ui header">

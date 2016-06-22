@@ -6,6 +6,9 @@ $(function(){
     // anchors:['sohoDuck', 'sprinkle', 'mooD', 'puppyRace']
   });
 
+  // carousel
+   $('.flexslider').flexslider();
+   
   // semantic
 
   // hover image pop-up

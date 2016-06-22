@@ -76,7 +76,7 @@ body{
   height: auto;
 }
 
-#developer{
+#company, #developer{
   padding-bottom: 100px;
 }
 
@@ -152,6 +152,58 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
 
+}
+
+/* carousel */
+#carousel{
+  padding-top: 25px;
+}
+
+#floatleft{
+  float: left;
+  margin-bottom: 5px;
+}
+
+.banner-text{
+  width: 50%;
+  padding-left: 40px !important;
+  position: absolute;
+  opacity: .6;
+  background-color: #333;
+  bottom: 0;
+  left: 0;
+  background: #333;
+  zoom: 1;
+  padding: 40px 0;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Bliss ExtraLight", 'Gill Sans', 'Calibri', 'Helvetica Neue', 'Arial', 'sans-serif';
+}
+
+.banner-text-inner h2 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2.7em;
+  float: left;
+  text-transform: uppercase;
+}
+
+.banner-text .banner-text-inner p{
+  margin: 5px 0 10px 0;
+  font-size: 1.125em;
+  color: #ddd;
+  padding: 0 0 0 4.6%;
+  border-left: #999 1px solid;
+  float: left;
+  line-height: 1.22em;
+}
+
+p{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 /* Responsive CSS */

@@ -4,6 +4,7 @@ import Topic from './body/topic'
 import Company from './body/company'
 import Profile from './body/profile'
 import Engineer from './body/engineer'
+import Carousel from './body/carousel'
 
 class Body extends Component {
   render(){
@@ -19,13 +20,17 @@ class Body extends Component {
         {/* body topics */}
         <Topic />
 
-        <div className="ui horizontal divider">Worked with</div>
+        <div className="ui horizontal divider">Quick Glance</div>
 
-        {/* passed experiences */}
-        <Company />
+        {/* carousel */}
+        <Carousel />
 
         {/* Software Engineer */}
         <Engineer />
+
+        <div className="ui horizontal divider">Worked with</div>
+        {/* passed experiences */}
+        <Company />
 
       </div>
     )
