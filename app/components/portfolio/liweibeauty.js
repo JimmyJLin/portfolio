@@ -30,13 +30,11 @@ export default class Liweibeauty extends Component {
         <div className="ui divider"></div>
 
         <h4 className="ui center aligned icon header">
-          <a href="http://www.liweibeauty.com" target="_blank">
-            <div className="ui animated fade button" tabindex="0">
-              <div className="visible content"> Visit the website</div>
-              <div className="hidden content">
-              Warp 10...Engage!!
-              </div>
-            </div>
+          <a id="displayinline" href="http://www.liweibeauty.com" target="_blank">
+            <i className="ui icon large world black"></i>
+          </a>
+          <a id="displayinline" href="https://github.com/JimmyJLin/liwei_beauty" target="_blank">
+            <i className="ui icon large github black"></i>
           </a>
         </h4>
 

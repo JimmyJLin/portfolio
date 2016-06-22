@@ -25,20 +25,9 @@ body{
 }
 
 /* Portfolio */
-#sohoduck{
-  /*background-color: blue;*/
-}
-
-#puppyrace{
-  /*background-color: orange;*/
-}
-
-#sprinkle{
-  /*background-color: teal;*/
-}
-
-#mood{
-  /*background-color: green;*/
+#displayinline{
+  padding-left: 25px;
+  display: inline-block;
 }
 
 .ui.images {

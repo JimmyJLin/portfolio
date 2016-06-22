@@ -31195,21 +31195,13 @@ module.exports =
 	          { className: "ui center aligned icon header" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "https://moo-d.herokuapp.com", target: "_blank" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "ui animated fade button", tabindex: "0" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "visible content" },
-	                " Visit the website"
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "hidden content" },
-	                "Warp 10...Engage!!"
-	              )
-	            )
+	            { id: "displayinline", href: "https://moo-d.herokuapp.com", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large world black" })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { id: "displayinline", href: "https://github.com/JimmyJLin/liwei_beauty", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large github black" })
 	          )
 	        )
 	      );
@@ -31300,21 +31292,13 @@ module.exports =
 	          { className: "ui center aligned icon header" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "http://jimmyjlin.github.io/Puppy-Race/", target: "_blank" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "ui animated fade button", tabindex: "0" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "visible content" },
-	                " Visit the website"
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "hidden content" },
-	                "Warp 10...Engage!!"
-	              )
-	            )
+	            { id: "displayinline", href: "http://jimmyjlin.github.io/Puppy-Race/", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large world black" })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { id: "displayinline", href: "https://github.com/JimmyJLin/Puppy-Race", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large github black" })
 	          )
 	        )
 	      );
@@ -31419,21 +31403,13 @@ module.exports =
 	          { className: 'ui center aligned icon header' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://tsfr.io/zubpxb', target: '_blank' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'ui animated fade button', tabindex: '0' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'visible content' },
-	                ' Visit the website'
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'hidden content' },
-	                'Warp 10...Engage!!'
-	              )
-	            )
+	            { id: 'displayinline', href: 'https://tsfr.io/zubpxb', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'ui icon large world black' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { id: 'displayinline', href: 'https://github.com/JimmyJLin/SoHoDuck', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'ui icon large github black' })
 	          )
 	        )
 	      );
@@ -31527,21 +31503,13 @@ module.exports =
 	          { className: "ui center aligned icon header" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "https://sprinkle-jobs.herokuapp.com", target: "_blank" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "ui animated fade button", tabindex: "0" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "visible content" },
-	                " Visit the website"
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "hidden content" },
-	                "Warp 10...Engage!!"
-	              )
-	            )
+	            { id: "displayinline", href: "https://sprinkle-jobs.herokuapp.com", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large world black" })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { id: "displayinline", href: "https://github.com/WDI-Project-Sprinkle/Sprinkle", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large github black" })
 	          )
 	        )
 	      );
@@ -31628,21 +31596,8 @@ module.exports =
 	          { className: "ui center aligned icon header" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "http://www.allthingsfrenchie.com", target: "_blank" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "ui animated fade button", tabindex: "0" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "visible content" },
-	                " Visit the website"
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "hidden content" },
-	                "Warp 10...Engage!!"
-	              )
-	            )
+	            { id: "displayinline", href: "http://www.allthingsfrenchie.com", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large world black" })
 	          )
 	        )
 	      );
@@ -31731,21 +31686,13 @@ module.exports =
 	          { className: "ui center aligned icon header" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "http://www.liweibeauty.com", target: "_blank" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "ui animated fade button", tabindex: "0" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "visible content" },
-	                " Visit the website"
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "hidden content" },
-	                "Warp 10...Engage!!"
-	              )
-	            )
+	            { id: "displayinline", href: "http://www.liweibeauty.com", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large world black" })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { id: "displayinline", href: "https://github.com/JimmyJLin/liwei_beauty", target: "_blank" },
+	            _react2.default.createElement("i", { className: "ui icon large github black" })
 	          )
 	        )
 	      );
