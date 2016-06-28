@@ -5,12 +5,15 @@ import Sohoduck from './portfolio/sohoduck'
 import Sprinkle from './portfolio/sprinkle'
 import Allthingsfrenchie from './portfolio/allthingsfrenchie'
 import Liweibeauty from './portfolio/liweibeauty'
+import Pellhair from './portfolio/pellhair'
 
 class Portfolio extends Component {
   render(){
     return (
       <div>
         <div id="fullpage">
+          <Pellhair />
+
           <Liweibeauty />
 
           <Sohoduck />
@@ -22,7 +25,7 @@ class Portfolio extends Component {
           <Puppyrace />
 
           <Allthingsfrenchie />
-          
+
         </div>
       </div>
     )

@@ -10,6 +10,17 @@ export default class Carousel extends Component {
           <ul className="slides">
 
             <li>
+              <img src="images/slider/pellhair_slide.png" />
+              <div className="banner-text">
+                <div className="banner-text-inner">
+                  <h2 id="floatleft">22 Pell Hair Salon</h2>
+                  <p id="floatleft"> 22 Pell Hair salon the located in the heart of Chinatown, NYC is the gold standard in Cut, Color and Thermal Reconditioning.</p>
+                  <Link to="/portfolio#liweibeauty" id="floatleft" className="ui button">Details</Link>
+                </div>
+              </div>
+            </li>
+
+            <li>
               <img src="images/slider/liwei_slide.png" />
               <div className="banner-text">
                 <div className="banner-text-inner">
