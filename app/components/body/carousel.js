@@ -15,7 +15,7 @@ export default class Carousel extends Component {
                 <div className="banner-text-inner">
                   <h2 id="floatleft">22 Pell Hair Salon</h2>
                   <p id="floatleft"> 22 Pell Hair salon the located in the heart of Chinatown, NYC is the gold standard in Cut, Color and Thermal Reconditioning.</p>
-                  <Link to="/portfolio#liweibeauty" id="floatleft" className="ui button">Details</Link>
+                  <Link to="/portfolio#pellhair" id="floatleft" className="ui button">Details</Link>
                 </div>
               </div>
             </li>

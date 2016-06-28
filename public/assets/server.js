@@ -30797,7 +30797,7 @@ module.exports =
 	                  ),
 	                  _react2.default.createElement(
 	                    _reactRouter.Link,
-	                    { to: '/portfolio#liweibeauty', id: 'floatleft', className: 'ui button' },
+	                    { to: '/portfolio#pellhair', id: 'floatleft', className: 'ui button' },
 	                    'Details'
 	                  )
 	                )
