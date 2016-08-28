@@ -30,7 +30,7 @@ export default class Pellhair extends Component {
         <div className="ui divider"></div>
 
         <h4 className="ui center aligned icon header">
-          <a id="displayinline" href="https://pellhair.herokuapp.com/" target="_blank">
+          <a id="displayinline" href="http://www.22pellhair.com" target="_blank">
             <i className="ui icon large world black"></i>
           </a>
           <a id="displayinline" href="https://github.com/JimmyJLin/pellhair" target="_blank">
